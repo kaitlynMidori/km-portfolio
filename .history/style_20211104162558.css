@@ -1,0 +1,221 @@
+/* General */
+body {
+margin: 0;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Caveat', cursive;
+}
+
+.home-video {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  border: solid red;
+  pointer-events: none;
+}
+
+section.home-video {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    left: 0;
+}
+
+/* .landing-video {
+  background-color: black;
+} */
+
+header {
+  background-color: black;
+  margin-bottom: 40px;
+}
+
+.logo {
+  font-family: 'Architects Daughter', cursive;
+font-family: 'Caveat', cursive;
+font-size: 70px;
+color: white;
+text-align: center;
+letter-spacing: -2;
+margin: 0;
+padding: 20px 0 0 0;
+}
+
+/* navigation */
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+  font-family: 'Architects Daughter', cursive;
+  font-family: 'Caveat', cursive;
+}
+
+header nav ul li a:hover {
+  color: greenyellow;
+}
+
+@media all and (min-width: 700px){
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin: 14px 0 14px 20px;
+    padding-top: 0;
+    font-size: 42px;
+  }
+
+  header nav {
+    margin-top: 14px;
+  }
+}
+
+/* Primary Groups */
+
+main {
+  padding: 20px 0;
+}
+
+section {
+  margin-bottom: 100px;
+  /* border: solid green; */
+}
+
+section.dark-background {
+  background-color: black;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: 80px 0;
+}
+
+footer {
+  background-color: black;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+/* Typography */
+h1 {
+  font-size: 28px;
+  font-family: 'Architects Daughter', cursive;
+font-family: 'Caveat', cursive;
+color: black;
+font-weight: 400;
+}
+
+h2 {
+  font-size: 26px;
+  color: white;
+  font-family: 'Architects Daughter', cursive;
+font-family: 'Caveat', cursive;
+font-weight: 400;
+margin: 0 10px;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: 'Architects Daughter', cursive;
+font-family: 'Caveat', cursive;
+font-weight: 500;
+}
+
+p {
+  font-family: 'Architects Daughter', cursive;
+font-family: 'Caveat', cursive;
+font-size: 20px;
+line-height: 1.5em;
+margin-bottom: 0;
+}
+
+main a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+main a:link{color: white;}
+main a:visited{color: rgb(168, 206, 111);}
+main main a:hover{color: greenyellow;}
+a:active{color:  rgb(133, 186, 55);}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer h2 {
+  color: black;
+}
+
+main img {
+  width: 100%;
+  /* border: solid orange; */
+}
+
+img.image-enhanced {
+  border-radius: 8px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  color: white;
+  flex: 2;
+}
+
+/* Desktop groups/items */
+@media all and (min-width: 800px){
+  section {
+    padding: 0 10%;
+  }
+  .group {
+    flex-direction: row-reverse;
+  }
+}
+
+/* Contact Form Design */
+form {
+  padding-right: 8px;
+}
+
+form label {
+  display: block;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
+}

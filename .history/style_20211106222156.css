@@ -726,7 +726,7 @@ section {
     display: block;
     width: 77%;
     height: 100%;
-    /* border: solid yellow; */
+    border: solid yellow;
     color: white;
     margin: auto;
     text-align: center;

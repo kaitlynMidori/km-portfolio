@@ -35,6 +35,7 @@ section {
     margin-bottom: 80px;
 }
 
+
 .m_scroll_arrows {
   display: block;
   width: 5px;
@@ -94,7 +95,6 @@ section {
   border: 2px solid white;
   top: 170px;
 }
-
 
 .wheel {
   height: 5px;
@@ -334,8 +334,8 @@ h1 {
 
 h2 {
     font-size: 3vw;
-    font-weight: bolder;
     color: white;
+    font-weight: 400;
     margin: 0 10px;
 }
 

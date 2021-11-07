@@ -33,7 +33,9 @@ section {
 	height: 100px;
 	margin-top: 80px;
     margin-bottom: 80px;
+    text-align: center;
 }
+
 
 .m_scroll_arrows {
   display: block;
@@ -85,7 +87,7 @@ section {
   animation-direction: alternate;
   margin-top: -6px;
 }
-
+/* 
 .mouse {
   height: 42px;
   width: 24px;
@@ -93,8 +95,7 @@ section {
   transform: none;
   border: 2px solid white;
   top: 170px;
-}
-
+} */
 
 .wheel {
   height: 5px;

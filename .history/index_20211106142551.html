@@ -12,39 +12,29 @@
 <body>
 
     <header>
-        <div class="logo" hidden="yes">KAITLYN MIDORI</div>
-      <!-- <nav>
+      <div class="logo" hidden="true">Kaitlyn Midori</div>
+      <nav>
         <ul id="menu">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-      </nav> -->
+      </nav>
     </header>
   
   <main>
   
   <!-- introduction -->
-  <section class="video-section">
-    <div class="video-container">
+  <section class="video-container">
+    <div class="landing-video">
       <video playsinline autoplay loop muted src="./images/video.MP4" type="video/mp4"></video>
       <div class="overlay">
           <p>KAITLYN MIDORI | WEB DEVELOPER + CREATIVE </p>
-        <!-- <span class="video-text">KAITLYN MIDORI | WEB DEVELOPER + CREATIVE</span> -->
+        <span class="video-text">KAITLYN MIDORI | WEB DEVELOPER + CREATIVE</span>
       </div>
     </div>
   </section>
-  <div class="mouse_scroll">
-    <div class="mouse">
-        <!-- <div class="wheel"></div> -->
-    </div>
-    <div>
-        <span class="m_scroll_arrows unu"></span>
-        <span class="m_scroll_arrows doi"></span>
-        <span class="m_scroll_arrows trei"></span>
-    </div>
-</div>
   
   <!-- <section class="outter option1">
     <section class="video-container">
@@ -57,10 +47,10 @@
   </section> -->
   
   <!-- About Me -->
-  <section class="projects-section">
+  <section class="dark-background">
+    <h2>Projects</h2>
+    <p>Pick a card, any card.</p>
       <div class="card-container">
-        <h2 hidden="true">WORK</h2>
-        <p hidden="yes">Pick a card, any card.</p>
         <div class="row-one">
           <div class="card">
             <div class="card-inner">
@@ -140,7 +130,7 @@
     </section> -->
   
   <!-- Portfolio -->
-      <!-- <section>
+      <section>
         <h2>Portfolio</h2>
         <div class="group">
           <div class="item">
@@ -157,49 +147,35 @@
             </ol>
           </div>
         </div>
-      </section> -->
+      </section>
   
   <!-- Contact -->
    
   
-      <!-- Contact -->
- 
-    <section class="contact-section">
-        <div class="contact-container">
-            <div class="contact-bar">
-                <a href="tel:415-509-6490"><i class="material-icons" style="font-size:28px">phonelink_ring</i></a>
+      <section class="dark-background">
+        <h2>Contact</h2>
+        <div class="group">
+          <div class="item item-double">
+            <form action="https://formspree.io/f/xrgoqyge"
+   method="post">
+              <label for="user-name">Name:</label>
+              <input id="user-name" type="text" name="name">
+  
+              <label for="user-email">Email:</label>
+              <input id="user-email" type="text" name="email">
+  
+              <label for="user-message">Message:</label> <textarea id="user-message" name="message"></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+          <div class="item item-double">
+            <p>Phone #: <a href="tel:555-555-5555">415-509-6490</a></p>
+            <p>Email: <a href="mailto:katyluhoo@yahoo.com ">katyluhoo@yahoo.com</a></p>
+            <p>LinkedIn: <a href="http://www.linkedin.com/in/kaitlyn-shepardson-1623a9117" target="_blank"> Kaitlyn's LinkedIn</a></p>
+            <p>GitHub: <a href="https://www.github.com/kaitlynMidori">Kaitlyn's GitHub</a></p>
                 
-                <a href="mailto:kaitlynmidori@gmail.com "><i class="material-icons" style="font-size:28px">mail_outline </i> </a>
-                
-                <a href="http://www.linkedin.com/in/kaitlyn-midori" target="_blank"><i class="fa fa-linkedin" style="font-size:28px"></i></a>
-               
-                <a href="https://www.github.com/kaitlynMidori"><i class="fa fa-github" style="font-size:28px"></i></a>
-              </div>
-          <div class="contact-form">
-              <form action="https://formspree.io/f/xrgoqyge" method="post">
-                <label for="user-name">Name:</label>
-                <input id="user-name" type="text" name="name">
-    
-                <label for="user-email">Email:</label>
-                <input id="user-email" type="text" name="email">
-    
-                <label for="user-message">Message:</label> <textarea id="user-message" name="message"></textarea>
-                <button type="submit">Submit</button>
-              </form>
-            </div>
-            <div class="location">
-              <p><i class="material-icons" style="font-size:28px">location_on</i>Oakland, CA</p>
-              <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d201877.73430325926!2d-122.37538914908166!3d37.758634650214724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857d8b28aaed03%3A0x71b415d535759367!2sOakland%2C%20CA!5e0!3m2!1sen!2sus!4v1602104516145!5m2!1sen!2sus" width="300" height="300" allowfullscreen="" ></iframe></p>  
-            </div>
-            <!-- <div class="contact-bar">
-                <a href="tel:415-509-6490"><i class="material-icons" style="font-size:28px">phonelink_ring</i></a>
-                
-                <a href="mailto:kaitlynmidori@gmail.com "><i class="material-icons" style="font-size:28px">mail_outline </i> </a>
-                
-                <a href="http://www.linkedin.com/in/kaitlyn-midori" target="_blank"><i class="fa fa-linkedin" style="font-size:28px"></i></a>
-               
-                <a href="https://www.github.com/kaitlynMidori"><i class="fa fa-github" style="font-size:28px"></i></a>
-              </div> -->
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d201877.73430325926!2d-122.37538914908166!3d37.758634650214724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857d8b28aaed03%3A0x71b415d535759367!2sOakland%2C%20CA!5e0!3m2!1sen!2sus!4v1602104516145!5m2!1sen!2sus" width="600" height="450" allowfullscreen=""></iframe>
+          </div>
         </div>
       </section>
     </main>
@@ -212,8 +188,6 @@
             src="https://code.jquery.com/jquery-3.2.1.min.js"
             integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
             crossorigin="anonymous"></script>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!-- <script src="script.js"></script> -->
     </body>
   </html>

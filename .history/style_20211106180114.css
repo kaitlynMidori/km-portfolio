@@ -35,6 +35,7 @@ section {
     margin-bottom: 80px;
 }
 
+
 .m_scroll_arrows {
   display: block;
   width: 5px;
@@ -94,7 +95,6 @@ section {
   border: 2px solid white;
   top: 170px;
 }
-
 
 .wheel {
   height: 5px;
@@ -226,7 +226,7 @@ video {
     transform: translateY(-46%);
     -ms-transform: translateY(-46%);
     -webkit-transform: translateY(-46%);
-    font-size: 2.5vw;
+    font-size: 3vw;
 }
 
 /* span.video-text {
@@ -327,25 +327,25 @@ footer p {
 
 /* Typography */
 h1 {
-    font-size: 4vw;
+    font-size: 28px;
     color: black;
     font-weight: 400;
 }
 
 h2 {
-    font-size: 3vw;
-    font-weight: bolder;
+    font-size: 26px;
     color: white;
+    font-weight: 400;
     margin: 0 10px;
 }
 
 h3 {
-    font-size: 2vw;
+    font-size: 18px;
     font-weight: 500;
 }
 
 p {
-    font-size: 3vw;
+    font-size: 20px;
     line-height: 1.5em;
     margin-bottom: 0;
     color: white;

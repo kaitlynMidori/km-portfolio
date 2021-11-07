@@ -233,7 +233,7 @@ video {
     transform: translateY(-46%);
     -ms-transform: translateY(-46%);
     -webkit-transform: translateY(-46%);
-    font-size: 2.5vw;
+    font-size: 15px;
 }
 
 footer {

@@ -266,7 +266,7 @@ h3 {
 }
 
 p {
-    font-size: 15px;
+    font-size: 3vw;
     line-height: 1.5em;
     margin-bottom: 0;
     color: white;
@@ -752,13 +752,12 @@ section {
   .location {
     display: block;
     margin: auto;
-    width: 60%;
-    height: auto;
+    width: 50%;
+    height: 100%;
     margin-bottom: 20px;
     color: white;  
     text-align: center;
     border: solid blue;
-    overflow: hidden;
   }
   /****** Contact Form Design ******/
   form input, form textarea {

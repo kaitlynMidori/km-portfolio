@@ -266,7 +266,7 @@ h3 {
 }
 
 p {
-    font-size: 15px;
+    font-size: 3vw;
     line-height: 1.5em;
     margin-bottom: 0;
     color: white;
@@ -758,7 +758,6 @@ section {
     color: white;  
     text-align: center;
     border: solid blue;
-    overflow: hidden;
   }
   /****** Contact Form Design ******/
   form input, form textarea {
